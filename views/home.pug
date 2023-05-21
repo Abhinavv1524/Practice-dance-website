@@ -1,0 +1,27 @@
+extends base.pug
+block scripts 
+    script(src="../static/scripts.js")
+block style 
+    style 
+        include ../static/style.css
+block content 
+    section#firstSection 
+        div#container 
+            h1 Welcome to the dance academy 
+            h2 Lets dance
+    section#mission 
+        h2 Our Mission 
+        div#card 
+            div.cards
+                h3 Practice session
+            div.cards
+                h3 Training session
+            div.cards
+                h3 Coaching
+    section#secondSection 
+            h1 View our Sponsers 
+            div#sp
+                img(src="../static/img/sp1.avif", alt="")
+                img(src="../static/img/sp2.avif", alt="")
+                img(src="../static/img/sp3.avif", alt="")
+                img(src="../static/img/sp4.avif", alt="")

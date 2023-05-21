@@ -1,0 +1,18 @@
+doctype html 
+html 
+    head 
+        block scripts 
+        block style 
+    body
+        nav#navbar 
+            div#logo
+                img(src="../static/img/logo.avif", alt="")
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="contact") Contact]
+                li #[a(href="/") Join]
+                li #[a(href="/") Support]
+        block content 
+        footer#footer
+            | Copyright &copy; AbhiDanceAcademy | All Right Reserved 
